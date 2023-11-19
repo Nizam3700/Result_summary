@@ -1,0 +1,171 @@
+/* Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Poppins:wght@800&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    height: 60vh;
+    width: 44vw;
+    display: grid;
+    grid-template-rows: right left;
+    position: relative;
+    top: 150px;
+    left: auto;
+    right: auto;
+    margin: auto;
+    box-shadow: 2px 2px 15px 2px rgb(215, 214, 214);
+    border-radius: 25px;
+}
+
+/* right container */
+.right {
+    grid-row: right;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 60vh;
+    width: 22vw;
+    border-radius: 25px;
+}
+
+h3 {
+    margin-top: 30px;
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+}
+
+.cir_display {
+    position: relative;
+    left: 3.5vw;
+    right: auto;
+    border-radius: 100%;
+    height: 95%;
+    width: 60%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+h1 {
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+}
+
+h2 {
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+}
+
+p {
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+}
+
+/* left container  */
+.left {
+    grid-row: left;
+    border-radius: 25px;
+    position: absolute;
+    left: auto;
+    right: 3vw;
+    top: 5vh;
+}
+
+.sum {
+    color: hsl(224, 30%, 27%);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    height: 6vh;
+    width: 17vw;
+    border-radius: 10px;
+}
+
+.containers img {
+    height: 25px;
+    margin: 10px;
+}
+
+#c1 {
+    background-color: #fff7f7;
+}
+
+#c2 {
+    background-color: #fffbf4;
+}
+
+#c3 {
+    background-color: #f2fcf9;
+}
+
+#c4 {
+    background-color: #f3f4fd;
+
+}
+
+#c1 h4 {
+    color: hsl(0, 100%, 67%);
+}
+
+#c2 h4 {
+    color: hsl(39, 100%, 56%);
+}
+
+#c3 h4 {
+    color: hsl(166, 100%, 37%);
+}
+
+#c4 h4 {
+    color: hsl(234, 85%, 45%);
+}
+
+h4 {
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+
+h5 {
+    color: hsl(224, 30%, 27%);
+    font-size: 15px;
+    margin: 10px 5px 0px 60px;
+}
+
+h6 {
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+    margin: 10px 0px 0px -10px;
+}
+
+#c3 h6,
+#c4 h6 {
+    margin: 10px 0px 0px -20px;
+}
+
+/* button  */
+button {
+    position: relative;
+    left: 5px;
+    right: auto;
+    top: 30px;
+    height: 6vh;
+    width: 17vw;
+    border-radius: 50px;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+}
